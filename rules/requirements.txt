@@ -1,0 +1,6 @@
+# tldextract is pinned exactly: its bundled Public Suffix List decides how
+# domains split, so a different version could change signals.
+tldextract==5.4.0
+rapidfuzz>=3.9,<4
+idna>=3.7
+pytest>=8

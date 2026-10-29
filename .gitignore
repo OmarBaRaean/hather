@@ -1,0 +1,24 @@
+# Allow-list: everything is ignored except the files listed below.
+# Data, phone exports, the test set, labels and models can never be committed by accident.
+*
+!*/
+!.gitignore
+!README.md
+!docs/figures/*.svg
+!data/*.py
+!data/scenarios_ar.md
+!rules/*.py
+!rules/*.json
+!rules/README.md
+!rules/requirements.txt
+!eval/review.html
+!notebooks/teacher_runA_kaggle.ipynb
+!notebooks/teacher_prep.ipynb
+!notebooks/teacher_runB.ipynb
+!notebooks/student_train.ipynb
+# never, even inside allowed folders
+data/raw/
+data/out/
+Models/
+.wheels/
+__pycache__/

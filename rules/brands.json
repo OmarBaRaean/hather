@@ -1,0 +1,1824 @@
+{
+ "_about": "Hather brand list. en/ar: names that always mean the brand. en_ctx/ar_ctx: names that are also everyday words; they count only next to a context word or as a header ('نجم:'). domains: official domains (subdomains included). sender_ids: SMS sender IDs and short codes. keywords: extra brand words for look-alike checks (domain labels are added automatically). saudi: counts for foreign_number_local_brand. gov: any *.gov.sa link is official for it. Sender IDs are starting guesses: correct them from the phone exports. former: old names/rebrands, kept as aliases because old messages and scams still use them. Domains were checked on Oct 22, 2026; unconfirmed ones were removed rather than guessed. Oct 23: domains seen in real business SMS from a phone export (stc.sa, my.stc, jawwy.sa, jaw.ee, tabby.sa, jarir.sa, jahez.link, sehhaty.sa, zat.ca, inmapay.com) were added.",
+ "brands": [
+  {
+   "id": "alrajhi",
+   "en": [
+    "Al Rajhi",
+    "AlRajhi",
+    "Rajhi"
+   ],
+   "ar": [
+    "الراجحي",
+    "راجحي"
+   ],
+   "domains": [
+    "alrajhibank.com.sa"
+   ],
+   "sender_ids": [
+    "AlRajhiBank",
+    "AlRajhi",
+    "Al Rajhi"
+   ],
+   "keywords": [
+    "alrajhi",
+    "rajhi"
+   ],
+   "saudi": true
+  },
+  {
+   "id": "snb",
+   "en": [
+    "SNB",
+    "Saudi National Bank",
+    "AlAhli",
+    "NCB"
+   ],
+   "ar": [
+    "البنك الأهلي",
+    "الأهلي السعودي",
+    "البنك الأهلي السعودي",
+    "البنك الأهلي التجاري",
+    "سامبا"
+   ],
+   "domains": [
+    "alahli.com"
+   ],
+   "sender_ids": [
+    "SNB",
+    "SNB-AlAhli",
+    "AlAhli"
+   ],
+   "keywords": [
+    "snb",
+    "alahli"
+   ],
+   "saudi": true,
+   "former": [
+    "NCB (National Commercial Bank)",
+    "Samba"
+   ]
+  },
+  {
+   "id": "riyadbank",
+   "en": [
+    "Riyad Bank"
+   ],
+   "ar": [
+    "بنك الرياض"
+   ],
+   "domains": [
+    "riyadbank.com"
+   ],
+   "sender_ids": [
+    "RiyadBank"
+   ],
+   "keywords": [],
+   "saudi": true
+  },
+  {
+   "id": "sab",
+   "en": [
+    "SAB",
+    "SABB",
+    "Saudi Awwal Bank",
+    "Alawwal"
+   ],
+   "ar": [
+    "بنك ساب",
+    "البنك السعودي الأول"
+   ],
+   "ar_ctx": [
+    "ساب"
+   ],
+   "domains": [
+    "sab.com",
+    "sabb.com"
+   ],
+   "sender_ids": [
+    "SAB",
+    "SABB"
+   ],
+   "keywords": [
+    "sabb"
+   ],
+   "saudi": true,
+   "former": [
+    "SABB",
+    "Alawwal Bank"
+   ]
+  },
+  {
+   "id": "bsf",
+   "en": [
+    "Banque Saudi Fransi",
+    "BSF"
+   ],
+   "ar": [
+    "البنك السعودي الفرنسي",
+    "بنك الفرنسي"
+   ],
+   "domains": [
+    "alfransi.com.sa"
+   ],
+   "sender_ids": [
+    "BSF",
+    "AlFransi"
+   ],
+   "keywords": [
+    "fransi",
+    "bsf"
+   ],
+   "saudi": true
+  },
+  {
+   "id": "anb",
+   "en": [
+    "ANB",
+    "Arab National Bank"
+   ],
+   "ar": [
+    "البنك العربي الوطني",
+    "البنك العربي"
+   ],
+   "domains": [
+    "anb.com.sa"
+   ],
+   "sender_ids": [
+    "ANB"
+   ],
+   "keywords": [],
+   "saudi": true
+  },
+  {
+   "id": "alinma",
+   "en": [
+    "Alinma",
+    "InmaPay",
+    "inma pay"
+   ],
+   "ar": [
+    "مصرف الإنماء",
+    "بنك الإنماء"
+   ],
+   "ar_ctx": [
+    "الإنماء"
+   ],
+   "domains": [
+    "alinma.com",
+    "inmapay.com"
+   ],
+   "sender_ids": [
+    "AlinmaBank",
+    "Alinma"
+   ],
+   "keywords": [],
+   "saudi": true
+  },
+  {
+   "id": "albilad",
+   "en": [
+    "Bank Albilad",
+    "Albilad"
+   ],
+   "ar": [
+    "بنك البلاد"
+   ],
+   "domains": [
+    "bankalbilad.com"
+   ],
+   "sender_ids": [
+    "BankAlbilad",
+    "Albilad"
+   ],
+   "keywords": [
+    "albilad"
+   ],
+   "saudi": true
+  },
+  {
+   "id": "aljazira",
+   "en": [
+    "Bank AlJazira",
+    "AlJazira"
+   ],
+   "ar": [
+    "بنك الجزيرة"
+   ],
+   "domains": [
+    "bankaljazira.com",
+    "aljazirabank.com.sa"
+   ],
+   "sender_ids": [
+    "BankAlJazira",
+    "BAJ"
+   ],
+   "keywords": [
+    "aljazira"
+   ],
+   "saudi": true
+  },
+  {
+   "id": "saib",
+   "en": [
+    "SAIB",
+    "Saudi Investment Bank"
+   ],
+   "ar": [
+    "البنك السعودي للاستثمار"
+   ],
+   "domains": [
+    "saib.com.sa"
+   ],
+   "sender_ids": [
+    "SAIB"
+   ],
+   "keywords": [],
+   "saudi": true
+  },
+  {
+   "id": "stcbank",
+   "en": [
+    "STC Bank",
+    "stc pay",
+    "stcpay"
+   ],
+   "ar": [
+    "بنك اس تي سي",
+    "اس تي سي بنك",
+    "اس تي سي باي",
+    "stc بنك"
+   ],
+   "domains": [
+    "stcbank.com.sa",
+    "stcpay.com.sa"
+   ],
+   "sender_ids": [
+    "STCBank",
+    "stc bank",
+    "STCPay"
+   ],
+   "keywords": [
+    "stcpay",
+    "stcbank"
+   ],
+   "saudi": true,
+   "former": [
+    "stc pay (renamed STC Bank)"
+   ]
+  },
+  {
+   "id": "d360",
+   "en": [
+    "D360"
+   ],
+   "ar": [],
+   "domains": [
+    "d360.com"
+   ],
+   "sender_ids": [
+    "D360"
+   ],
+   "keywords": [],
+   "saudi": true
+  },
+  {
+   "id": "urpay",
+   "en": [
+    "urpay"
+   ],
+   "ar": [
+    "يور باي"
+   ],
+   "domains": [
+    "urpay.com.sa"
+   ],
+   "sender_ids": [
+    "urpay"
+   ],
+   "keywords": [],
+   "saudi": true
+  },
+  {
+   "id": "tabby",
+   "en": [
+    "Tabby"
+   ],
+   "ar": [
+    "تابي"
+   ],
+   "domains": [
+    "tabby.ai",
+    "tabby.sa"
+   ],
+   "sender_ids": [
+    "tabby"
+   ],
+   "keywords": [],
+   "saudi": true
+  },
+  {
+   "id": "tamara",
+   "en_ctx": [
+    "Tamara"
+   ],
+   "ar_ctx": [
+    "تمارا"
+   ],
+   "domains": [
+    "tamara.co"
+   ],
+   "sender_ids": [
+    "Tamara"
+   ],
+   "keywords": [],
+   "saudi": true
+  },
+  {
+   "id": "mada",
+   "en": [
+    "mada"
+   ],
+   "ar_ctx": [
+    "مدى"
+   ],
+   "domains": [
+    "mada.com.sa"
+   ],
+   "sender_ids": [],
+   "keywords": [],
+   "saudi": true
+  },
+  {
+   "id": "sadad",
+   "en": [
+    "SADAD"
+   ],
+   "ar": [
+    "نظام سداد",
+    "منصة سداد"
+   ],
+   "domains": [
+    "sadad.com"
+   ],
+   "sender_ids": [
+    "SADAD"
+   ],
+   "keywords": [],
+   "saudi": true
+  },
+  {
+   "id": "sama",
+   "en": [
+    "SAMA",
+    "Saudi Central Bank"
+   ],
+   "ar": [
+    "البنك المركزي السعودي",
+    "ساما"
+   ],
+   "domains": [
+    "sama.gov.sa"
+   ],
+   "sender_ids": [
+    "SAMA"
+   ],
+   "keywords": [],
+   "saudi": true,
+   "gov": true
+  },
+  {
+   "id": "stc",
+   "en": [
+    "Jawwy",
+    "STC",
+    "Saudi Telecom",
+    "mystc"
+   ],
+   "ar": [
+    "اس تي سي",
+    "الاتصالات السعودية",
+    "جوي"
+   ],
+   "domains": [
+    "stc.com.sa",
+    "stc.sa",
+    "my.stc",
+    "jawwy.sa",
+    "jaw.ee"
+   ],
+   "sender_ids": [
+    "900",
+    "902",
+    "Jawwy",
+    "Jawwy-AD",
+    "STC",
+    "stc-ad"
+   ],
+   "keywords": [
+    "mystc"
+   ],
+   "saudi": true
+  },
+  {
+   "id": "mobily",
+   "en": [
+    "Mobily"
+   ],
+   "ar": [
+    "موبايلي"
+   ],
+   "domains": [
+    "mobily.com.sa"
+   ],
+   "sender_ids": [
+    "Mobily",
+    "1100"
+   ],
+   "keywords": [],
+   "saudi": true
+  },
+  {
+   "id": "zain",
+   "en": [
+    "Zain"
+   ],
+   "ar": [
+    "زين السعودية",
+    "شركة زين"
+   ],
+   "ar_ctx": [
+    "زين"
+   ],
+   "domains": [
+    "sa.zain.com",
+    "zain.com"
+   ],
+   "sender_ids": [
+    "Zain",
+    "959"
+   ],
+   "keywords": [],
+   "saudi": true
+  },
+  {
+   "id": "virgin",
+   "en": [
+    "Virgin Mobile"
+   ],
+   "ar": [
+    "فيرجن موبايل"
+   ],
+   "domains": [
+    "virginmobile.sa"
+   ],
+   "sender_ids": [
+    "VirginMobile"
+   ],
+   "keywords": [],
+   "saudi": true
+  },
+  {
+   "id": "lebara",
+   "en": [
+    "Lebara"
+   ],
+   "ar": [
+    "ليبارا"
+   ],
+   "domains": [
+    "lebara.sa",
+    "lebara.com"
+   ],
+   "sender_ids": [
+    "Lebara"
+   ],
+   "keywords": [],
+   "saudi": true
+  },
+  {
+   "id": "absher",
+   "en": [
+    "Absher"
+   ],
+   "ar": [
+    "منصة أبشر",
+    "تطبيق أبشر",
+    "أبشر أفراد",
+    "أبشر أعمال"
+   ],
+   "ar_ctx": [
+    "أبشر"
+   ],
+   "domains": [
+    "absher.sa",
+    "moi.gov.sa"
+   ],
+   "sender_ids": [
+    "Absher",
+    "MOI"
+   ],
+   "keywords": [],
+   "saudi": true,
+   "gov": true
+  },
+  {
+   "id": "muroor",
+   "en": [
+    "Saher",
+    "Muroor"
+   ],
+   "ar": [
+    "الإدارة العامة للمرور",
+    "نظام ساهر",
+    "مخالفات ساهر"
+   ],
+   "ar_ctx": [
+    "ساهر",
+    "المرور"
+   ],
+   "domains": [
+    "moi.gov.sa"
+   ],
+   "sender_ids": [
+    "Muroor",
+    "Saher"
+   ],
+   "keywords": [
+    "saher",
+    "muroor"
+   ],
+   "saudi": true,
+   "gov": true
+  },
+  {
+   "id": "tawakkalna",
+   "en": [
+    "Tawakkalna"
+   ],
+   "ar": [
+    "تطبيق توكلنا",
+    "توكلنا خدمات"
+   ],
+   "ar_ctx": [
+    "توكلنا"
+   ],
+   "domains": [
+    "sdaia.gov.sa"
+   ],
+   "sender_ids": [
+    "Tawakkalna"
+   ],
+   "keywords": [
+    "tawakkalna"
+   ],
+   "saudi": true,
+   "gov": true
+  },
+  {
+   "id": "nafath",
+   "en": [
+    "Nafath"
+   ],
+   "ar": [
+    "النفاذ الوطني",
+    "منصة نفاذ",
+    "تطبيق نفاذ"
+   ],
+   "ar_ctx": [
+    "نفاذ"
+   ],
+   "domains": [
+    "iam.gov.sa"
+   ],
+   "sender_ids": [
+    "Nafath"
+   ],
+   "keywords": [],
+   "saudi": true,
+   "gov": true
+  },
+  {
+   "id": "moh",
+   "en": [
+    "Sehhaty",
+    "Ministry of Health"
+   ],
+   "ar": [
+    "وزارة الصحة",
+    "تطبيق صحتي",
+    "منصة صحتي"
+   ],
+   "ar_ctx": [
+    "صحتي"
+   ],
+   "domains": [
+    "moh.gov.sa",
+    "sehhaty.sa"
+   ],
+   "sender_ids": [
+    "MOH",
+    "Sehhaty",
+    "937"
+   ],
+   "keywords": [
+    "sehhaty"
+   ],
+   "saudi": true,
+   "gov": true
+  },
+  {
+   "id": "zatca",
+   "en": [
+    "ZATCA"
+   ],
+   "ar": [
+    "هيئة الزكاة والضريبة والجمارك",
+    "الزكاة والضريبة",
+    "الجمارك السعودية"
+   ],
+   "domains": [
+    "zatca.gov.sa",
+    "zat.ca"
+   ],
+   "sender_ids": [
+    "ZATCA"
+   ],
+   "keywords": [
+    "zatca"
+   ],
+   "saudi": true,
+   "gov": true
+  },
+  {
+   "id": "najiz",
+   "en": [
+    "Najiz",
+    "Ministry of Justice"
+   ],
+   "ar": [
+    "ناجز",
+    "وزارة العدل"
+   ],
+   "domains": [
+    "najiz.sa",
+    "moj.gov.sa"
+   ],
+   "sender_ids": [
+    "Najiz",
+    "MOJ"
+   ],
+   "keywords": [],
+   "saudi": true,
+   "gov": true
+  },
+  {
+   "id": "qiwa",
+   "en": [
+    "Qiwa"
+   ],
+   "ar": [
+    "منصة قوى"
+   ],
+   "ar_ctx": [
+    "قوى"
+   ],
+   "domains": [
+    "qiwa.sa",
+    "hrsd.gov.sa"
+   ],
+   "sender_ids": [
+    "Qiwa"
+   ],
+   "keywords": [],
+   "saudi": true,
+   "gov": true
+  },
+  {
+   "id": "gosi",
+   "en": [
+    "GOSI"
+   ],
+   "ar": [
+    "التأمينات الاجتماعية",
+    "المؤسسة العامة للتأمينات"
+   ],
+   "domains": [
+    "gosi.gov.sa"
+   ],
+   "sender_ids": [
+    "GOSI"
+   ],
+   "keywords": [],
+   "saudi": true,
+   "gov": true
+  },
+  {
+   "id": "musaned",
+   "en": [
+    "Musaned"
+   ],
+   "ar": [
+    "منصة مساند"
+   ],
+   "ar_ctx": [
+    "مساند"
+   ],
+   "domains": [
+    "musaned.com.sa"
+   ],
+   "sender_ids": [
+    "Musaned"
+   ],
+   "keywords": [],
+   "saudi": true,
+   "gov": true
+  },
+  {
+   "id": "citizen",
+   "en": [
+    "Citizen Account"
+   ],
+   "ar": [
+    "حساب المواطن"
+   ],
+   "domains": [
+    "ca.gov.sa"
+   ],
+   "sender_ids": [],
+   "keywords": [],
+   "saudi": true,
+   "gov": true
+  },
+  {
+   "id": "balady",
+   "en": [
+    "Balady",
+    "MOMAH"
+   ],
+   "ar": [
+    "منصة بلدي",
+    "تطبيق بلدي",
+    "وزارة البلديات والاسكان",
+    "وزارة الاسكان"
+   ],
+   "ar_ctx": [
+    "بلدي"
+   ],
+   "domains": [
+    "balady.gov.sa",
+    "momah.gov.sa"
+   ],
+   "sender_ids": [
+    "Balady"
+   ],
+   "keywords": [],
+   "saudi": true,
+   "gov": true,
+   "former": [
+    "Ministry of Housing",
+    "MOMRA / MOMRAH"
+   ]
+  },
+  {
+   "id": "ejar",
+   "en": [
+    "Ejar"
+   ],
+   "ar": [
+    "منصة إيجار",
+    "شبكة إيجار"
+   ],
+   "domains": [
+    "ejar.sa"
+   ],
+   "sender_ids": [
+    "Ejar"
+   ],
+   "keywords": [],
+   "saudi": true,
+   "gov": true
+  },
+  {
+   "id": "nusuk",
+   "en": [
+    "Nusuk"
+   ],
+   "ar": [
+    "نسك",
+    "وزارة الحج"
+   ],
+   "domains": [
+    "nusuk.sa",
+    "haj.gov.sa"
+   ],
+   "sender_ids": [
+    "Nusuk"
+   ],
+   "keywords": [],
+   "saudi": true,
+   "gov": true
+  },
+  {
+   "id": "sakani",
+   "en": [
+    "Sakani"
+   ],
+   "ar": [
+    "برنامج سكني",
+    "منصة سكني"
+   ],
+   "ar_ctx": [
+    "سكني"
+   ],
+   "domains": [
+    "sakani.sa"
+   ],
+   "sender_ids": [
+    "Sakani"
+   ],
+   "keywords": [],
+   "saudi": true,
+   "gov": true
+  },
+  {
+   "id": "najm",
+   "en": [
+    "Najm"
+   ],
+   "ar": [
+    "شركة نجم"
+   ],
+   "ar_ctx": [
+    "نجم"
+   ],
+   "domains": [
+    "najm.sa"
+   ],
+   "sender_ids": [
+    "Najm"
+   ],
+   "keywords": [],
+   "saudi": true
+  },
+  {
+   "id": "tawuniya",
+   "en": [
+    "Tawuniya"
+   ],
+   "ar_ctx": [
+    "التعاونية"
+   ],
+   "domains": [
+    "tawuniya.com"
+   ],
+   "sender_ids": [
+    "Tawuniya"
+   ],
+   "keywords": [],
+   "saudi": true
+  },
+  {
+   "id": "bupa",
+   "en": [
+    "Bupa"
+   ],
+   "ar": [
+    "بوبا"
+   ],
+   "domains": [
+    "bupa.com.sa"
+   ],
+   "sender_ids": [
+    "Bupa"
+   ],
+   "keywords": [],
+   "saudi": true
+  },
+  {
+   "id": "tameeni",
+   "en": [
+    "Tameeni"
+   ],
+   "ar": [
+    "منصة تأميني"
+   ],
+   "ar_ctx": [
+    "تأميني"
+   ],
+   "domains": [
+    "tameeni.com"
+   ],
+   "sender_ids": [
+    "Tameeni"
+   ],
+   "keywords": [],
+   "saudi": true
+  },
+  {
+   "id": "sec",
+   "en": [
+    "Saudi Electricity"
+   ],
+   "en_ctx": [
+    "SEC"
+   ],
+   "ar": [
+    "الشركة السعودية للكهرباء",
+    "السعودية للكهرباء"
+   ],
+   "domains": [
+    "se.com.sa"
+   ],
+   "sender_ids": [
+    "SEC",
+    "SE"
+   ],
+   "keywords": [],
+   "saudi": true
+  },
+  {
+   "id": "nwc",
+   "en": [
+    "National Water Company",
+    "NWC"
+   ],
+   "ar": [
+    "شركة المياه الوطنية",
+    "المياه الوطنية"
+   ],
+   "domains": [
+    "nwc.com.sa"
+   ],
+   "sender_ids": [
+    "NWC"
+   ],
+   "keywords": [],
+   "saudi": true
+  },
+  {
+   "id": "aramco",
+   "en": [
+    "Aramco"
+   ],
+   "ar": [
+    "أرامكو"
+   ],
+   "domains": [
+    "aramco.com"
+   ],
+   "sender_ids": [
+    "Aramco"
+   ],
+   "keywords": [],
+   "saudi": true
+  },
+  {
+   "id": "saudia",
+   "en": [
+    "Saudia",
+    "Saudi Arabian Airlines"
+   ],
+   "ar": [
+    "الخطوط السعودية",
+    "السعودية للطيران"
+   ],
+   "domains": [
+    "saudia.com"
+   ],
+   "sender_ids": [
+    "SAUDIA"
+   ],
+   "keywords": [],
+   "saudi": true
+  },
+  {
+   "id": "flynas",
+   "en": [
+    "flynas"
+   ],
+   "ar": [
+    "طيران ناس"
+   ],
+   "domains": [
+    "flynas.com"
+   ],
+   "sender_ids": [
+    "flynas"
+   ],
+   "keywords": [],
+   "saudi": true
+  },
+  {
+   "id": "flyadeal",
+   "en": [
+    "flyadeal"
+   ],
+   "ar": [
+    "طيران أديل"
+   ],
+   "domains": [
+    "flyadeal.com"
+   ],
+   "sender_ids": [
+    "flyadeal"
+   ],
+   "keywords": [],
+   "saudi": true
+  },
+  {
+   "id": "riyadhair",
+   "en": [
+    "Riyadh Air"
+   ],
+   "ar": [
+    "طيران الرياض"
+   ],
+   "domains": [
+    "riyadhair.com"
+   ],
+   "sender_ids": [
+    "RiyadhAir"
+   ],
+   "keywords": [
+    "riyadhair"
+   ],
+   "saudi": true
+  },
+  {
+   "id": "spl",
+   "en": [
+    "SPL",
+    "Saudi Post"
+   ],
+   "ar": [
+    "البريد السعودي"
+   ],
+   "ar_ctx": [
+    "سبل"
+   ],
+   "domains": [
+    "splonline.com.sa"
+   ],
+   "sender_ids": [
+    "SPL",
+    "SaudiPost"
+   ],
+   "keywords": [
+    "spl",
+    "saudipost"
+   ],
+   "saudi": true
+  },
+  {
+   "id": "aramex",
+   "en": [
+    "Aramex"
+   ],
+   "ar": [
+    "أرامكس"
+   ],
+   "domains": [
+    "aramex.com"
+   ],
+   "sender_ids": [
+    "Aramex"
+   ],
+   "keywords": [],
+   "saudi": false
+  },
+  {
+   "id": "smsa",
+   "en": [
+    "SMSA"
+   ],
+   "ar": [
+    "سمسا"
+   ],
+   "domains": [
+    "smsaexpress.com"
+   ],
+   "sender_ids": [
+    "SMSA"
+   ],
+   "keywords": [
+    "smsa"
+   ],
+   "saudi": true
+  },
+  {
+   "id": "naqel",
+   "en": [
+    "Naqel"
+   ],
+   "ar_ctx": [
+    "ناقل"
+   ],
+   "domains": [
+    "naqelexpress.com"
+   ],
+   "sender_ids": [
+    "Naqel"
+   ],
+   "keywords": [
+    "naqel"
+   ],
+   "saudi": true
+  },
+  {
+   "id": "zajil",
+   "en": [
+    "Zajil"
+   ],
+   "ar": [
+    "زاجل"
+   ],
+   "domains": [
+    "zajil-express.com"
+   ],
+   "sender_ids": [
+    "Zajil"
+   ],
+   "keywords": [
+    "zajil"
+   ],
+   "saudi": true
+  },
+  {
+   "id": "jt",
+   "en": [
+    "J&T Express",
+    "J&T"
+   ],
+   "ar": [
+    "جي اند تي"
+   ],
+   "domains": [
+    "jtexpress.com"
+   ],
+   "sender_ids": [
+    "JTExpress"
+   ],
+   "keywords": [],
+   "saudi": false
+  },
+  {
+   "id": "imile",
+   "en": [
+    "iMile"
+   ],
+   "ar": [
+    "اي مايل"
+   ],
+   "domains": [
+    "imile.com"
+   ],
+   "sender_ids": [
+    "iMile"
+   ],
+   "keywords": [],
+   "saudi": false
+  },
+  {
+   "id": "dhl",
+   "en": [
+    "DHL"
+   ],
+   "ar": [
+    "دي اتش ال"
+   ],
+   "domains": [
+    "dhl.com"
+   ],
+   "sender_ids": [
+    "DHL"
+   ],
+   "keywords": [],
+   "saudi": false
+  },
+  {
+   "id": "fedex",
+   "en": [
+    "FedEx"
+   ],
+   "ar": [
+    "فيديكس",
+    "فيدكس"
+   ],
+   "domains": [
+    "fedex.com"
+   ],
+   "sender_ids": [
+    "FedEx"
+   ],
+   "keywords": [],
+   "saudi": false
+  },
+  {
+   "id": "ups",
+   "en_ctx": [
+    "UPS"
+   ],
+   "ar": [
+    "يو بي اس"
+   ],
+   "domains": [
+    "ups.com"
+   ],
+   "sender_ids": [
+    "UPS"
+   ],
+   "keywords": [],
+   "saudi": false
+  },
+  {
+   "id": "usps",
+   "en": [
+    "USPS"
+   ],
+   "ar": [],
+   "domains": [
+    "usps.com"
+   ],
+   "sender_ids": [
+    "USPS"
+   ],
+   "keywords": [],
+   "saudi": false
+  },
+  {
+   "id": "royalmail",
+   "en": [
+    "Royal Mail"
+   ],
+   "ar": [],
+   "domains": [
+    "royalmail.com"
+   ],
+   "sender_ids": [
+    "RoyalMail"
+   ],
+   "keywords": [],
+   "saudi": false
+  },
+  {
+   "id": "evri",
+   "en": [
+    "Evri"
+   ],
+   "ar": [],
+   "domains": [
+    "evri.com"
+   ],
+   "sender_ids": [
+    "Evri"
+   ],
+   "keywords": [],
+   "saudi": false
+  },
+  {
+   "id": "amazon",
+   "en": [
+    "Amazon"
+   ],
+   "ar": [
+    "أمازون"
+   ],
+   "domains": [
+    "amazon.sa",
+    "amazon.com",
+    "amazon.ae",
+    "amazon.co.uk"
+   ],
+   "sender_ids": [
+    "Amazon"
+   ],
+   "keywords": [],
+   "saudi": false
+  },
+  {
+   "id": "noon",
+   "en_ctx": [
+    "noon"
+   ],
+   "ar_ctx": [
+    "نون"
+   ],
+   "domains": [
+    "noon.com"
+   ],
+   "sender_ids": [
+    "noon"
+   ],
+   "keywords": [],
+   "saudi": true
+  },
+  {
+   "id": "jahez",
+   "en": [
+    "Jahez"
+   ],
+   "ar_ctx": [
+    "جاهز"
+   ],
+   "domains": [
+    "jahez.net",
+    "jahez.link"
+   ],
+   "sender_ids": [
+    "Jahez"
+   ],
+   "keywords": [],
+   "saudi": true
+  },
+  {
+   "id": "hungerstation",
+   "en": [
+    "HungerStation"
+   ],
+   "ar": [
+    "هنقرستيشن",
+    "هنقر ستيشن"
+   ],
+   "domains": [
+    "hungerstation.com"
+   ],
+   "sender_ids": [
+    "HungerStation"
+   ],
+   "keywords": [],
+   "saudi": true
+  },
+  {
+   "id": "careem",
+   "en": [
+    "Careem"
+   ],
+   "ar_ctx": [
+    "كريم"
+   ],
+   "domains": [
+    "careem.com"
+   ],
+   "sender_ids": [
+    "Careem"
+   ],
+   "keywords": [],
+   "saudi": false
+  },
+  {
+   "id": "uber",
+   "en": [
+    "Uber"
+   ],
+   "ar": [
+    "أوبر"
+   ],
+   "domains": [
+    "uber.com"
+   ],
+   "sender_ids": [
+    "Uber"
+   ],
+   "keywords": [],
+   "saudi": false
+  },
+  {
+   "id": "namshi",
+   "en": [
+    "Namshi"
+   ],
+   "ar_ctx": [
+    "نمشي"
+   ],
+   "domains": [
+    "namshi.com"
+   ],
+   "sender_ids": [
+    "Namshi"
+   ],
+   "keywords": [],
+   "saudi": false
+  },
+  {
+   "id": "shein",
+   "en": [
+    "SHEIN"
+   ],
+   "ar": [
+    "شي ان"
+   ],
+   "domains": [
+    "shein.com"
+   ],
+   "sender_ids": [
+    "SHEIN"
+   ],
+   "keywords": [],
+   "saudi": false
+  },
+  {
+   "id": "aliexpress",
+   "en": [
+    "AliExpress"
+   ],
+   "ar": [
+    "علي إكسبرس"
+   ],
+   "domains": [
+    "aliexpress.com"
+   ],
+   "sender_ids": [
+    "AliExpress"
+   ],
+   "keywords": [],
+   "saudi": false
+  },
+  {
+   "id": "haraj",
+   "en": [
+    "Haraj"
+   ],
+   "ar": [
+    "موقع حراج",
+    "تطبيق حراج"
+   ],
+   "ar_ctx": [
+    "حراج"
+   ],
+   "domains": [
+    "haraj.com.sa"
+   ],
+   "sender_ids": [
+    "Haraj"
+   ],
+   "keywords": [],
+   "saudi": true
+  },
+  {
+   "id": "jarir",
+   "en": [
+    "Jarir"
+   ],
+   "ar": [
+    "مكتبة جرير",
+    "جرير"
+   ],
+   "domains": [
+    "jarir.com",
+    "jarir.sa"
+   ],
+   "sender_ids": [
+    "Jarir"
+   ],
+   "keywords": [],
+   "saudi": true
+  },
+  {
+   "id": "apple",
+   "en": [
+    "iCloud",
+    "Apple ID",
+    "Apple Pay"
+   ],
+   "en_ctx": [
+    "Apple"
+   ],
+   "ar_ctx": [
+    "أبل"
+   ],
+   "domains": [
+    "apple.com",
+    "icloud.com"
+   ],
+   "sender_ids": [
+    "Apple"
+   ],
+   "keywords": [
+    "apple",
+    "icloud"
+   ],
+   "saudi": false
+  },
+  {
+   "id": "google",
+   "en": [
+    "Google",
+    "Gmail"
+   ],
+   "ar": [
+    "جوجل",
+    "قوقل"
+   ],
+   "domains": [
+    "google.com",
+    "youtube.com",
+    "gmail.com",
+    "maps.app.goo.gl"
+   ],
+   "sender_ids": [
+    "Google"
+   ],
+   "keywords": [
+    "gmail"
+   ],
+   "saudi": false
+  },
+  {
+   "id": "microsoft",
+   "en": [
+    "Microsoft",
+    "Outlook",
+    "Office 365"
+   ],
+   "ar": [
+    "مايكروسوفت"
+   ],
+   "domains": [
+    "microsoft.com",
+    "live.com",
+    "outlook.com",
+    "office.com"
+   ],
+   "sender_ids": [
+    "Microsoft"
+   ],
+   "keywords": [
+    "outlook"
+   ],
+   "saudi": false
+  },
+  {
+   "id": "whatsapp",
+   "en": [
+    "WhatsApp"
+   ],
+   "ar": [
+    "واتساب",
+    "واتس اب",
+    "الواتس"
+   ],
+   "domains": [
+    "whatsapp.com",
+    "whatsapp.net",
+    "wa.me"
+   ],
+   "sender_ids": [
+    "WhatsApp"
+   ],
+   "keywords": [],
+   "saudi": false
+  },
+  {
+   "id": "meta",
+   "en": [
+    "Facebook"
+   ],
+   "en_ctx": [
+    "Meta"
+   ],
+   "ar": [
+    "فيسبوك",
+    "فيس بوك"
+   ],
+   "domains": [
+    "facebook.com",
+    "fb.com",
+    "meta.com"
+   ],
+   "sender_ids": [
+    "Facebook"
+   ],
+   "keywords": [],
+   "saudi": false
+  },
+  {
+   "id": "instagram",
+   "en": [
+    "Instagram"
+   ],
+   "ar": [
+    "انستقرام",
+    "انستغرام"
+   ],
+   "domains": [
+    "instagram.com"
+   ],
+   "sender_ids": [
+    "Instagram"
+   ],
+   "keywords": [],
+   "saudi": false
+  },
+  {
+   "id": "snapchat",
+   "en": [
+    "Snapchat"
+   ],
+   "ar": [
+    "سناب شات",
+    "سناب"
+   ],
+   "domains": [
+    "snapchat.com"
+   ],
+   "sender_ids": [
+    "Snapchat"
+   ],
+   "keywords": [],
+   "saudi": false
+  },
+  {
+   "id": "tiktok",
+   "en": [
+    "TikTok"
+   ],
+   "ar": [
+    "تيك توك"
+   ],
+   "domains": [
+    "tiktok.com"
+   ],
+   "sender_ids": [
+    "TikTok"
+   ],
+   "keywords": [],
+   "saudi": false
+  },
+  {
+   "id": "telegram",
+   "en": [
+    "Telegram"
+   ],
+   "ar": [
+    "تيليجرام",
+    "تلقرام"
+   ],
+   "domains": [
+    "telegram.org",
+    "t.me"
+   ],
+   "sender_ids": [
+    "Telegram"
+   ],
+   "keywords": [],
+   "saudi": false
+  },
+  {
+   "id": "x",
+   "en": [
+    "Twitter"
+   ],
+   "ar": [
+    "تويتر"
+   ],
+   "domains": [
+    "x.com",
+    "twitter.com"
+   ],
+   "sender_ids": [],
+   "keywords": [],
+   "saudi": false,
+   "former": [
+    "Twitter (now X)"
+   ]
+  },
+  {
+   "id": "netflix",
+   "en": [
+    "Netflix"
+   ],
+   "ar": [
+    "نتفليكس"
+   ],
+   "domains": [
+    "netflix.com"
+   ],
+   "sender_ids": [
+    "Netflix"
+   ],
+   "keywords": [],
+   "saudi": false
+  },
+  {
+   "id": "shahid",
+   "en": [
+    "Shahid"
+   ],
+   "ar": [
+    "منصة شاهد"
+   ],
+   "ar_ctx": [
+    "شاهد"
+   ],
+   "domains": [
+    "shahid.mbc.net",
+    "mbc.net"
+   ],
+   "sender_ids": [
+    "Shahid"
+   ],
+   "keywords": [
+    "shahid"
+   ],
+   "saudi": true
+  },
+  {
+   "id": "paypal",
+   "en": [
+    "PayPal"
+   ],
+   "ar": [
+    "باي بال"
+   ],
+   "domains": [
+    "paypal.com"
+   ],
+   "sender_ids": [
+    "PayPal"
+   ],
+   "keywords": [],
+   "saudi": false
+  },
+  {
+   "id": "mastercard",
+   "en": [
+    "Mastercard"
+   ],
+   "ar": [
+    "ماستركارد"
+   ],
+   "domains": [
+    "mastercard.com"
+   ],
+   "sender_ids": [
+    "Mastercard"
+   ],
+   "keywords": [],
+   "saudi": false
+  },
+  {
+   "id": "hmrc",
+   "en": [
+    "HMRC"
+   ],
+   "ar": [],
+   "domains": [
+    "gov.uk"
+   ],
+   "sender_ids": [
+    "HMRC"
+   ],
+   "keywords": [
+    "hmrc"
+   ],
+   "saudi": false
+  },
+  {
+   "id": "wellsfargo",
+   "en": [
+    "Wells Fargo"
+   ],
+   "ar": [],
+   "domains": [
+    "wellsfargo.com"
+   ],
+   "sender_ids": [
+    "WellsFargo"
+   ],
+   "keywords": [],
+   "saudi": false
+  },
+  {
+   "id": "chase",
+   "en_ctx": [
+    "Chase"
+   ],
+   "ar": [],
+   "domains": [
+    "chase.com"
+   ],
+   "sender_ids": [
+    "Chase"
+   ],
+   "keywords": [],
+   "saudi": false
+  },
+  {
+   "id": "bofa",
+   "en": [
+    "Bank of America",
+    "BofA"
+   ],
+   "ar": [],
+   "domains": [
+    "bankofamerica.com"
+   ],
+   "sender_ids": [
+    "BofA"
+   ],
+   "keywords": [],
+   "saudi": false
+  }
+ ]
+}
